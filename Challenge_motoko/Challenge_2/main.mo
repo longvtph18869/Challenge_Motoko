@@ -165,7 +165,7 @@ actor {
       });
     };
 
-    //Challenge 16:
+    //Challenge 17:
     private func contains<A>(array : [A], a : A, f:(A,A)->Bool) : Bool{
       for(x in array.vals()){
         if(f(x,a)){
